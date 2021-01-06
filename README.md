@@ -9,7 +9,17 @@ Site Web à propos COVID-19
 
 2- ouvrir le dossier dans l'éditeur vscode.
 
+![Capture d’écran (14)](https://user-images.githubusercontent.com/67163533/103821801-3b373d80-506f-11eb-8635-a8b73ec662a7.png)
 
 3- installer l'extension live server dans vscode.
+
+![Capture d’écran (16)](https://user-images.githubusercontent.com/67163533/103822005-9d903e00-506f-11eb-9dcf-0d21a92cd946.png)
+
 4- ouvrir le fichier index.html in vscode.
+
+![Capture d’écran (18)](https://user-images.githubusercontent.com/67163533/103822183-e34d0680-506f-11eb-824a-e7e1952e502d.png)
+
 5- allez en bas à droite et cliquez sur le button Go Live.
+
+![Capture d’écran (20)_LI](https://user-images.githubusercontent.com/67163533/103822457-78e89600-5070-11eb-907e-8473e8d7fc44.jpg)
+
