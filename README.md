@@ -27,3 +27,11 @@ Site Web à propos COVID-19
 
 ![Capture d’écran (22)](https://user-images.githubusercontent.com/67163533/103822940-599e3880-5071-11eb-8474-13b33c019778.png)
 
+# Contact:
+
+Meriem El Oualfi : meriem.eloualfi@gmail.com
+
+# Encadré par:
+
+Mr. Toumi Hicham.
+
