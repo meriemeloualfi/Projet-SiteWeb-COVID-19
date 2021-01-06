@@ -1,0 +1,131 @@
+body{
+	margin:0;
+}
+
+html,body{
+	background-color: #fff;
+	font-family:'Source Sans Pro', sans-serif;
+	overflow-x: hidden !important;
+	margin: 0px !important;
+	padding: 0px !important; 
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+*{
+  box-sizing: border-box;
+  text-decoration: none !important
+}
+
+.nav{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.logo{
+	width: 10vw;
+}
+.nav .links a{
+	margin-right: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #407BFF;
+}
+
+.nav .links a:hover{
+	color:#000;
+}
+
+.nav .links .mainlink{
+	color: #407BFF;
+}
+
+.nav .links i{
+	margin-right: 8px;
+}
+
+.wrapper{
+	
+    margin-top: 40px;
+}
+::selection{
+  background: rgb(0,123,255,0.3);
+}
+.wrapper{
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.accordian{
+	max-width:600px;
+	display: block;
+	margin:100px auto;
+}
+
+.accordian .card{
+	box-shadow: 0px 0px 20px #d4d4d4;
+	margin-bottom:20px;
+	float: left;
+	width: 100%;
+}
+.accordian .card .card-header h3{
+	cursor: pointer;
+	color:#ffffff;
+	position: relative;
+	background-color: 	#2b6bf7;
+  ;
+	margin:0;
+  padding:15px 20px;
+
+}
+.accordian .card .card-header {
+	position: relative;
+}
+.accordian .card .card-header span{
+	position: absolute;
+	right:20px;
+	top:12px;
+	height:25px;
+	width:25px;
+	color:	#2b6bf7;
+	background-color: #ffffff;
+	border-radius:50%;
+	text-align: center;
+	line-height:25px;
+	font-size:13px;
+}
+
+.accordian .card .card-body{
+  padding:20px;
+  text-align: justify;
+}
+.accordian .card .card-body{
+	display: none;
+}
+/*open one card by default*/
+/*.accordian .card:nth-child(1) .card-body{
+ display: block;
+}*/
+.accordian .card .card-body p{
+	font-size: 15px;
+	line-height: 24px;
+	color:#444444;
+	margin:0px;
+}
+
+
+

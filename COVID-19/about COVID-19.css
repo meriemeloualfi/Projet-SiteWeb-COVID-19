@@ -1,0 +1,207 @@
+html,body{
+	background-color: #fff;
+	font-family:'Source Sans Pro', sans-serif;
+	overflow-x: hidden !important;
+	margin: 0px !important;
+	padding: 0px !important; 
+	display: grid;
+}
+
+*{
+	text-decoration: none !important
+}  
+
+.nav{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.logo{
+	width: 10vw;
+}
+.nav .links a{
+	margin-right: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #407BFF;
+}
+
+.nav .links a:hover{
+	color:#000;
+}
+
+.nav .links .mainlink{
+	color: #407BFF;
+}
+
+.nav .links i{
+	margin-right: 8px;
+}
+
+
+.infoSection{
+	height: 1100px; 
+}
+
+.infoHeader{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 20px;
+}
+.cardcontent{
+	height: 470px;
+}
+
+.infoCards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding:25px;
+}
+
+.infoCards .card{
+	position: relative;
+	height: 410px;
+	width: 350px;
+	background: #fff;
+	box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+
+}
+
+.infoCards .one .cardoneImg{
+	width: 180px;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+}
+
+.cardbgone{
+	height: 150px;
+	background-color: #B9DEF2;
+}
+
+.infoCards .two .cardtwoImg{
+	width: 180px;
+	position: absolute;
+	top: -12px;
+	right: 80px;
+}
+
+.cardbgtwo{
+	height: 150px;
+	background-color: #B9DEF2;
+}
+.infoCards .three .cardthreeImg{
+	width: 160px;
+	position: absolute;
+	top: -10px;
+	right: 80px;
+}
+
+.cardbgthree{
+	height: 150px;
+	background-color: #B9DEF2;
+}
+
+.infoCards .four .cardfourImg{
+	width: 180px;
+	position: absolute;
+	top: -12px;
+	right: 80px;
+}
+
+.cardbgfour{
+	height: 150px;
+	background-color: #B9DEF2;
+}
+.infoCards .five .cardfiveImg{
+	width: 180px;
+	position: absolute;
+	top: -10px;
+	right: 80px;
+}
+
+.cardbgfive{
+	height: 150px;
+	background-color: #B9DEF2;
+}
+.infoCards .six .cardsixImg{
+	width: 180px;
+	position: absolute;
+	top: -18px;
+	right: 80px;
+}
+
+.cardbgsix{
+	height: 150px;
+	background-color: #B9DEF2;
+}
+.cardContent{
+	padding: 0 20px;
+}
+
+.cardContent h2{
+	font-weight: 600;
+	text-align: center;
+	color: #407BFF;
+}
+
+.cardContent  p{
+	line-height: 30px;
+	opacity: 0.9;
+	text-align: justify;
+}
+@media only screen and (max-width: 600px){
+	.nav{
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 20px;
+		height: auto;
+		overflow-y:hidden; 
+	}
+	.nav .logo{
+		font-size: 6vw;
+		margin-top: 10px;
+		margin-bottom: 14px;
+	}
+	.nav .links a{
+		margin-right: 25px;
+		font-size: 12px;
+		font-weight: 600;
+	}
+    .infoSection{
+	    height: auto;
+    }
+
+    .infoHeader {
+	    text-align: center;
+	    margin-top: 150px;
+
+       }
+    .infoCards{
+    	display: flex;
+    	flex-direction: column;
+    	padding: 50px;
+    	justify-content: center;
+    	align-items: center;
+    	text-align: center;
+    }   
+
+      .infoCards .card{
+      	margin-bottom: 60px;
+      }
+
+}
